@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  header.hero {
+    text-align: center;
+    padding: 2rem;
+    background: #222;
+    color: #fff;
+  }
+  
+  .profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #00aced;
+    font-weight: bold;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+  }
+  
+  section h2 {
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills li {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #eee;
+    border-radius: 5px;
+  }
+  
+  .projects .project {
+    margin-bottom: 1rem;
+  }
+  
+  .contact button {
+    background: #00aced;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .contact button:hover {
+    background: #0084b4;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: white;
+    margin-top: 2rem;
+  }
+  
